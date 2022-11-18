@@ -166,9 +166,9 @@ It's used by the `flow_tracking_data` objects through the JSON file.
 Each instruction has four parts:
 
   - Flags: A bitset of 16 bits.
-  - Offset #2: An offset (`i16`).
-  - Offset #1: An offset (`i16`).
-  - Offset #0: An offset (`i16`).
+  - Offset #2: An offset (`i16`). Applied to operand #1.
+  - Offset #1: An offset (`i16`). Applied to operand #0.
+  - Offset #0: An offset (`i16`). Applied to the destination.
 
 They are encoded like this:
 
@@ -239,12 +239,12 @@ If none are set, a regular PC update (`pc += 1`) is executed. Otherwise, exactly
 
 Alternatively, the following table summarizes the possible combinations:
 
-| #7 | #8 | #9 |     Meaning     |
-|----|----|----|-----------------|
-|  0 |  0 |  0 | Use operand #0. |
-|  1 |  0 |  0 | Immediate.      |
-|  0 |  1 |  0 | Register `ap`.  |
-|  0 |  0 |  1 | Register `fp`.  |
+| #7 | #8 | #9 |      Meaning      |
+|----|----|----|-------------------|
+|  0 |  0 |  0 | `pc` += 1         |
+|  1 |  0 |  0 | Absolute jump.    |
+|  0 |  1 |  0 | Relative jump.    |
+|  0 |  0 |  1 | Conditional jump. |
 
 > TODO: The conditional jump is always relative?
 
