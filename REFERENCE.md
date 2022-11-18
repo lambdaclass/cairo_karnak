@@ -2,7 +2,159 @@
 
 ## JSON structure
 
-> WIP
+The compiled JSON program structure is composed of the following fields:
+
+  - `attributes`: ???.
+  - `builtins`: List of the used builtins' ids (array of strings).
+  - `compiler_version`: Cairo version used to compile the program (`<major>.<minor>.<patch>`).
+  - `data`: Program bytecode and immediates (array of `BigInt`s). The instructions (bytecode) fit
+      within 64bit integers, but immediates are `BigInt`s.
+  - `debug_info`: Has [its own section](#debug-information).
+  - `hints`: Has [its own section](#hints).
+  - `identifiers`: Has [its own section](#identifiers).
+  - `main_scope`: Path to the scope containing the main function.
+  - `prime`: `BigInt` containing the prime number used in the program.
+  - `reference_manager`: Has [its own section](#references).
+
+**Useful types**
+
+  - Memory address: An object with attributes `group` and `offset`, that correspond to a segment
+      index and offset respectively.
+  - Source code span: Starting and ending location in a source file. Has the following fields:
+    - `end_col`: Final column.
+    - `end_line`: Final line.
+    - `input_file`: An object with a `filename` attribute which contains the absolute path to the
+        source file.
+    - `start_col`: Starting column.
+    - `start_line`: Starting line.
+  - Source code span with parent locations: The same as a source code span, with an optional field
+      named `parent_location`. This field is a tuple containing itself (recursive) and a string
+      describing the scope (in a human-friendly manner).
+
+### Debug information
+
+The debug information object is composed of the following fields:
+
+  - `file_contents`: ???
+  - `instruction_locations`: Explained below.
+
+**Instruction locations**
+
+The field `instruction_locations` is a dictionary whose keys map to the indices of instructions on
+the `data` field (never to immediates). Its value has the following fields:
+
+  - `accessible_scopes`: A list of scopes that can be accessed from the instruction's location.
+  - `flow_tracking_data`: Not sure why it's necessary. Has the following fields:
+    - `ap_tracking`: A memory address.
+    - `reference_ids`: A dictionary whose keys are paths to the reference (scope + `.` + name) and
+        its values point to a reference from the reference manager.
+    - `hints`: An object containing a `location`, in the form of a source code span, and
+        `n_prefix_newlines`, which is a number (not sure what it represents).
+    - `inst`: Span of the instruction, including parent locations.
+
+### Hints
+
+The `hints` attribute contains a dictionary whose keys map to the indices of instructions on the
+`data` field (same as with [instruction locations](#debug-information)), while its value are arrays
+specifying the hints used (?) by the associated instruction.
+
+Each hint has the following fields:
+
+  - `accessible_scopes`: The scopes that are accessible from the hint's Python code.
+  - `code`: The hint's Python code.
+  - `flow_tracking_data`: Not sure why it's necessary. Has the following fields:
+    - `ap_tracking`: A memory address.
+    - `reference_ids`: A dictionary whose keys are paths to the reference (scope + `.` + name) and
+        its values point to a reference from the reference manager.
+
+
+### Identifiers
+
+The `identifiers` attribute is a dictionary whose keys are the identifier IDs (as referenced by the
+`flow_tracking_data.reference_ids`'s items). Its values may represent be one of several things. The
+field `type` may be used to distinguish between the different identifier kinds.
+
+**Aliases**
+
+Its `type` is `alias`.
+
+An alias just forwards an identifier into a different one. It has a single extra field named
+`destination`, whose value is an identifier ID (string).
+
+**Constant values**
+
+Its `type` is `const`.
+
+A constant value identifier has a single extra field named `value`, which contains the integer
+(bigint) value.
+
+**Functions**
+
+Its `type` is `function`.
+
+The `function` identifier only declares the function's entrypoint (`pc`) and its decorators. Its
+arguments, implicit arguments, return type and size of its locals are all independent identifiers
+with IDs `<own-id>.Args`, `<own-id>.ImplicitArgs`, `<own-id>.Return` and `<own-id>.SIZEOF_LOCALS`
+respectively. Therefore, it only has the following fields:
+
+  - `decorators`: ???.
+  - `pc`: A number indicating the function's first instruction offset (as is in the `data` field).
+
+**Memory references**
+
+Its `type` is `reference`.
+
+Memory references group the `let` bindings, `let local`, `tempvar`... They have the following
+format:
+
+  - `cairo_type`: The binding type (TODO: TODO: is this field the same `cairo_type` as in a
+      `type_definition`?).
+  - `full_name`: Full path to the binding (`<scope-path>.<binding-name>`).
+  - `references`: List of referenced values.
+
+The `references` list contains every referenced value for this identifier. Normally, the list is
+only one item long; however, creating a reference with the same name (therefore same identifier)
+will cause it to grow. Each reference has the following fields:
+
+  - `ap_tracking_data`: Not sure why it's necessary. A memory address.
+  - `pc`: The `pc` after which said reference is valid in the current scope.
+  - `value`: A Cairo string defining both the value and the type.
+
+**Structures**
+
+Its `type` is `struct`.
+
+Has the following extra fields:
+
+  - `full_name`: Full path to the struct type, as defined by the language.
+  - `members`: Dictionary mapping field names to its types.
+  - `size`: Size (in felts) of the struct.
+
+Each member is an object composed of:
+
+  - `cairo_type`: A string specifying the field's type (TODO: is this field the same `cairo_type` as
+      in a `type_definition`?).
+  - `offset`: The offset where the field begins.
+
+**Type definitions**
+
+Its `type` is `type_definition`.
+
+A type definition is used to define types that are not structs, such as tuples. It has a single
+extra field named `cairo_type`, which describes the type itself.
+
+
+### References
+
+The `reference_manager` field contains a single attribute named `references`, which is a list of
+references. Each item has the following format:
+
+  - `ap_tracking_data`: Not sure why it's necessary. A memory address.
+  - `pc`: The `pc` after which said reference is valid in the current scope.
+  - `value`: A Cairo string defining both the value and the type.
+
+It's used by the `flow_tracking_data` objects through the JSON file.
+
 
 ## Instruction encoding
 
@@ -176,4 +328,3 @@ Offset #2: `1`, TODO: why?
     //   -> 1
 
 More examples at [the source code](https://github.com/starkware-libs/cairo-lang/blob/master/src/starkware/cairo/lang/compiler/encode_test.py).
-
