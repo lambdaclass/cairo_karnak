@@ -1,2 +1,2 @@
 # karnak
-Cairo bytecode compiler
+Cairo ahead of time compiler
