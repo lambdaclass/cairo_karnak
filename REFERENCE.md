@@ -279,7 +279,7 @@ Alternatively, the following table summarizes the possible combinations:
 |   0 |   0 |   0 | No operation.    |
 |   1 |   0 |   0 | Function call.   |
 |   0 |   1 |   0 | Function return. |
-|   0 |   0 |   1 | Equalit assert.  |
+|   0 |   0 |   1 | Equality assert. |
 
 ### Example
 
