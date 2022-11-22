@@ -328,3 +328,94 @@ Offset #2: `1`, TODO: why?
     //   -> 1
 
 More examples at [the source code](https://github.com/starkware-libs/cairo-lang/blob/master/src/starkware/cairo/lang/compiler/encode_test.py).
+
+
+## Instruction usage
+
+### Asserts
+
+The `assert` instruction can be invoked using either two or three operands. The
+rightmost operand (op1) can be an immediate, or an `ap` or `fp`-relative offset.
+
+When specifying an immediate, the offset must be equal to `1` since that's the
+offset of the immediate starting from the instruction's `pc`.
+
+If using only two operands, then `op0` is unused and must be set to an
+`fp`-relative with an offset of `-1`.
+
+Although the first operand is named `dst`, it doesn't have to be the unknown
+value. An assertion such that the unknown value is on the right is perfectly
+valid and should be handled accordingly.
+
+This instruction may increment `ap` by one if the corresponding flags are set.
+
+### An `ap` update
+
+An `ap` update instruction increments `ap` by an arbitrary value.
+
+Since its `dst` operand is unused, it must be an `fp`-relative with offset `-1`.
+Expressions are supported and follow the same rules as the `assert` instruction.
+
+> Note: Although `ap` is a `felt`, it's unrealistic that a program would
+    allocate that much memory. Technically, the Python VM will run a program
+    with holes spanning more than the space available in 64-bit integers,
+    however since such program would be practically impossible to prove, it's
+    probably sensible to throw an error if an `ap` overflow is detected.
+
+### Jumps
+
+Jumps are used to add non-deterministic behaviour to Cairo.
+
+They can be absolute, relative or conditional. If conditional, the jump is
+automatically relative, and the condition is always `x != 0`.
+
+Unconditional jumps don't use `dst`, therefore it must be set to `fp`-relative
+with offset `-1`. Conditional jumps use `dst` as the comparison pointer (the `x`
+in `x != 0`).
+
+Unconditional jumps support expressions, which also follow the same rules as the
+`assert` instruction. Conditional jumps, however, can only use `op1` with either
+an immediate, or a register-relative value. As before, `op0` will have to be
+`fp`-relative with offset `-1`.
+
+> Note: Inter-function non-conditional jumps are allowed and supported, but are
+    probably not a good idea.
+> Note: I still haven't found a snippet that doesn't throw an error at runtime
+    when executing an absolute jump. Maybe it only works with pointer cells
+    instead of `felt`s? Or something about a double dereference?
+
+### Calls
+
+Function calls push two values into the execution segment before jumping to the
+target function's entry `pc`:
+
+    [ap] = <value-of-fp>, ap++;
+    [ap] = <value-of-pc>, ap++;
+    <jump to function's entry `pc`>
+
+Function calls use `dst` as the `fp` pointer destination, and therefore must be
+set to `ap-relative` with offset 0. The `op0` operand is used as the return `pc`
+and must be `ap-relative` with offset 1. The other operand (`op1`) indicates the
+target function's entry `pc`.
+
+The `ap` pointer is always incremented by two (its flags have a special
+meaning).
+
+> Note: In reality, the target `pc` doesn't really have to be the function's
+    entry `pc`. Any valid `pc` works as well.
+> Note: I still haven't found a snippet that doesn't throw an error at runtime
+    when executing an absolute jump. Maybe it only works with pointer cells
+    instead of `felt`s? Or something about a double dereference?
+
+### Returns
+
+Function returns use `dst` as the new `fp` value, and therefore must be set to
+`fp-relative` with offset `-2`. Operand #0 is unused (and must be set as
+mentioned earlier), and op #1 is `ap`-relative with offset -1. Of course,
+expressions are not supported.
+
+The `pc` update field is set to an absolute jump, and `ap` cannot be updated.
+
+> TODO: Why is `op1` `ap`-relative with offset -1? If it was the return `pc`,
+    shouldn't it be `fp`-relative? Or is this the default value when `op1` is
+    unused?
