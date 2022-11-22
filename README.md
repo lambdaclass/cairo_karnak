@@ -1,4 +1,4 @@
-# Karnak - Cairo Ahead-of-Time  runner
+# Karnak - Cairo Ahead-of-Time compiler
 
 The idea of this project is to implement an optimistic Cairo language compiler
 to run Cairo programs as fast as possible, while ignoring the checks that are
