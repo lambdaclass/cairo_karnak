@@ -4,7 +4,7 @@ The idea of this project is to implement an optimistic Cairo language compiler
 to run Cairo programs as fast as possible, while ignoring the checks that are
 present in a full-blown VM.
 
-The first version won't be designed to generate executables.
+The first version won't be designed to generate executables, it will more similar to a JIT compiler.
 
 ## Roadmap
 
