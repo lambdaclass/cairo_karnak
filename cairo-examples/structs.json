@@ -1,0 +1,2850 @@
+{
+    "attributes": [],
+    "builtins": [],
+    "compiler_version": "0.10.1",
+    "data": [
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x4",
+        "0x400780017fff8000",
+        "0x0",
+        "0x400780017fff8001",
+        "0x0",
+        "0x400780017fff8002",
+        "0x0",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff8",
+        "0x40137ffe7fff8003",
+        "0x480a80037fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x3",
+        "0x400b7ffc7fff8000",
+        "0x400b7ffd7fff8001",
+        "0x480280027ffc8000",
+        "0x402580017fff8002",
+        "0x1",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffec",
+        "0x48127ffe7fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x480280007ffd8000",
+        "0x480280017ffd8000",
+        "0x208b7fff7fff7ffe",
+        "0x20780017fff7ffd",
+        "0x4",
+        "0x480280017ffc8000",
+        "0x208b7fff7fff7ffe",
+        "0x480280007ffc8000",
+        "0x482680017ffd8000",
+        "0x800000000000011000000000000000000000000000000000000000000000000",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffffa",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x2",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffda",
+        "0x480680017fff8000",
+        "0x1",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffe3",
+        "0x480680017fff8000",
+        "0xa",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffdf",
+        "0x480680017fff8000",
+        "0x64",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffdb",
+        "0x40137fff7fff8000",
+        "0x480680017fff8000",
+        "0x3",
+        "0x4002800280007fff",
+        "0x480a80007fff8000",
+        "0x480680017fff8000",
+        "0x0",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffe0",
+        "0x400680017fff7fff",
+        "0x64",
+        "0x480a80007fff8000",
+        "0x480680017fff8000",
+        "0x1",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffd9",
+        "0x400680017fff7fff",
+        "0xa",
+        "0x480a80007fff8000",
+        "0x480680017fff8000",
+        "0x2",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffd2",
+        "0x400680017fff7fff",
+        "0x1",
+        "0x480a80007fff8000",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffca",
+        "0x400680017fff7fff",
+        "0x64",
+        "0x48127ffe7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffc5",
+        "0x400680017fff7fff",
+        "0xa",
+        "0x48127ffe7fff8000",
+        "0x480680017fff8000",
+        "0x3e8",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffb3",
+        "0x40137fff7fff8001",
+        "0x480a80017fff8000",
+        "0x480680017fff8000",
+        "0x0",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffbb",
+        "0x400680017fff7fff",
+        "0x3e8",
+        "0x480a80017fff8000",
+        "0x480680017fff8000",
+        "0x1",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffb4",
+        "0x400680017fff7fff",
+        "0x1",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "starkware.cairo.lang.compiler.lib.registers",
+                    "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 73,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "/home/esteve/Documents/LambdaClass/venv-0.10/lib/python3.10/site-packages/starkware/cairo/lang/compiler/lib/registers.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 7
+                }
+            },
+            "1": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 18,
+                    "end_line": 20,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 20
+                }
+            },
+            "3": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.empty_stack.new_node": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 43,
+                    "end_line": 22,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 22
+                }
+            },
+            "5": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.empty_stack.new_node": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 31,
+                    "end_line": 23,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 23
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.empty_stack.new_node": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 24,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 24
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.empty_stack.new_node": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 44,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 29,
+                    "start_line": 29
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.empty_stack.__fp__": 1,
+                        "__main__.empty_stack.new_node": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 22,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 10,
+                    "start_line": 29
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.empty_stack.__fp__": 2,
+                        "__main__.empty_stack.new_node": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 22,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 19,
+                            "end_line": 21,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 28,
+                                    "end_line": 30,
+                                    "input_file": {
+                                        "filename": "structs.cairo"
+                                    },
+                                    "start_col": 20,
+                                    "start_line": 30
+                                },
+                                "While expanding the reference 'new_node' in:"
+                            ],
+                            "start_col": 11,
+                            "start_line": 21
+                        },
+                        "While expanding the reference '__fp__' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 29
+                }
+            },
+            "13": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.empty_stack"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.empty_stack.__fp__": 2,
+                        "__main__.empty_stack.new_node": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 30,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 30
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 18,
+                    "end_line": 37,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 37
+                }
+            },
+            "16": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.push.new_node": 5,
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 34,
+                    "end_line": 40,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 40
+                }
+            },
+            "17": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.push.new_node": 5,
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 35,
+                    "end_line": 41,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 41
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.push.new_node": 5,
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 40,
+                    "end_line": 42,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 28,
+                    "start_line": 42
+                }
+            },
+            "19": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.push.__temp0": 6,
+                        "__main__.push.new_node": 5,
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 45,
+                    "end_line": 42,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 42
+                }
+            },
+            "21": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.push.__temp0": 6,
+                        "__main__.push.new_node": 5,
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 44,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 23,
+                    "start_line": 44
+                }
+            },
+            "23": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.push.__fp__": 7,
+                        "__main__.push.__temp0": 6,
+                        "__main__.push.new_node": 5,
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 16,
+                    "end_line": 44,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 19,
+                            "end_line": 38,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 28,
+                                    "end_line": 45,
+                                    "input_file": {
+                                        "filename": "structs.cairo"
+                                    },
+                                    "start_col": 20,
+                                    "start_line": 45
+                                },
+                                "While expanding the reference 'new_node' in:"
+                            ],
+                            "start_col": 11,
+                            "start_line": 38
+                        },
+                        "While expanding the reference '__fp__' in:"
+                    ],
+                    "start_col": 10,
+                    "start_line": 44
+                }
+            },
+            "24": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.push"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.push.__fp__": 7,
+                        "__main__.push.__temp0": 6,
+                        "__main__.push.new_node": 5,
+                        "__main__.push.stack": 3,
+                        "__main__.push.value": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 45,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 45
+                }
+            },
+            "25": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.pop"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.pop.stack": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 29,
+                    "end_line": 51,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 51
+                }
+            },
+            "26": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.pop"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.pop.stack": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 48,
+                    "end_line": 51,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 51
+                }
+            },
+            "27": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.pop"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.pop.stack": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 50,
+                    "end_line": 51,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 51
+                }
+            },
+            "28": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.stack_at"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.stack_at.n": 10,
+                        "__main__.stack_at.stack": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 7,
+                    "end_line": 56,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 56
+                }
+            },
+            "30": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.stack_at"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.stack_at.n": 10,
+                        "__main__.stack_at.stack": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 58,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 23,
+                    "start_line": 58
+                }
+            },
+            "31": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.stack_at"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.stack_at.n": 10,
+                        "__main__.stack_at.stack": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 58,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 9,
+                    "start_line": 58
+                }
+            },
+            "32": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.stack_at"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.stack_at.n": 10,
+                        "__main__.stack_at.stack": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 62,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 34,
+                    "start_line": 62
+                }
+            },
+            "33": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.stack_at"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.stack_at.n": 10,
+                        "__main__.stack_at.stack": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 55,
+                    "end_line": 62,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 50,
+                    "start_line": 62
+                }
+            },
+            "35": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.stack_at"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.stack_at.n": 10,
+                        "__main__.stack_at.stack": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 56,
+                    "end_line": 62,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 62
+                }
+            },
+            "37": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.stack_at"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.stack_at.n": 10,
+                        "__main__.stack_at.stack": 9,
+                        "__main__.stack_at.value": 11
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 63,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 63
+                }
+            },
+            "38": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 18,
+                    "end_line": 67,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 67
+                }
+            },
+            "40": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 2
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 69,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 69
+                }
+            },
+            "42": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 11
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 12
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 71,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 31,
+                    "start_line": 71
+                }
+            },
+            "44": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 12
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 12
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 33,
+                    "end_line": 71,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 71
+                }
+            },
+            "46": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 21
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 33,
+                    "end_line": 72,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 31,
+                    "start_line": 72
+                }
+            },
+            "48": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 22
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 34,
+                    "end_line": 72,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 72
+                }
+            },
+            "50": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 31
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 14
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 40,
+                    "end_line": 73,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 73
+                }
+            },
+            "52": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 32
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 14
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 41,
+                    "end_line": 73,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 25,
+                    "start_line": 73
+                }
+            },
+            "54": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 41
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 15
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 73,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 10,
+                    "start_line": 73
+                }
+            },
+            "55": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 41
+                    },
+                    "reference_ids": {
+                        "__main__.main.stack": 16
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 76,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 25,
+                    "start_line": 76
+                }
+            },
+            "57": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 42
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 27,
+                    "end_line": 76,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 76
+                }
+            },
+            "58": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 42
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 73,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 33,
+                            "end_line": 79,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 28,
+                            "start_line": 79
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 73
+                }
+            },
+            "59": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 43
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 79,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 35,
+                    "start_line": 79
+                }
+            },
+            "61": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 44
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 79,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 79
+                }
+            },
+            "63": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 18
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 80,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 80
+                }
+            },
+            "65": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 18
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 73,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 33,
+                            "end_line": 81,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 28,
+                            "start_line": 81
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 73
+                }
+            },
+            "66": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 18
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 81,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 35,
+                    "start_line": 81
+                }
+            },
+            "68": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 18
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 81,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 81
+                }
+            },
+            "70": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 8,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 82,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 82
+                }
+            },
+            "72": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 8,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 73,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 33,
+                            "end_line": 83,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 28,
+                            "start_line": 83
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 73
+                }
+            },
+            "73": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 8,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 83,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 35,
+                    "start_line": 83
+                }
+            },
+            "75": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 8,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 83,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 83
+                }
+            },
+            "77": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 22,
+                    "end_line": 84,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 84
+                }
+            },
+            "79": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 73,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 35,
+                            "end_line": 87,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 30,
+                            "start_line": 87
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 73
+                }
+            },
+            "80": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 16,
+                        "__main__.main.value": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 87,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 26,
+                    "start_line": 87
+                }
+            },
+            "82": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 21,
+                        "__main__.main.value": 22
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 88,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 88
+                }
+            },
+            "84": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 21,
+                        "__main__.main.value": 22
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 15,
+                    "end_line": 87,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 35,
+                            "end_line": 89,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 30,
+                            "start_line": 89
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 10,
+                    "start_line": 87
+                }
+            },
+            "85": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 21,
+                        "__main__.main.value": 22
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 89,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 26,
+                    "start_line": 89
+                }
+            },
+            "87": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 10
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 23,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 90,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 90
+                }
+            },
+            "89": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 10
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 23,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 15,
+                    "end_line": 89,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 35,
+                            "end_line": 91,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 30,
+                            "start_line": 91
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 10,
+                    "start_line": 89
+                }
+            },
+            "90": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 11
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 23,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 41,
+                    "end_line": 91,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 91
+                }
+            },
+            "92": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 12
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 23,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 42,
+                    "end_line": 91,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 25,
+                    "start_line": 91
+                }
+            },
+            "94": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 21
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 25,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 91,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 10,
+                    "start_line": 91
+                }
+            },
+            "95": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 21
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 91,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 33,
+                            "end_line": 94,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 28,
+                            "start_line": 94
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 91
+                }
+            },
+            "96": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 22
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 94,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 35,
+                    "start_line": 94
+                }
+            },
+            "98": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 9,
+                        "offset": 23
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 24
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 94,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 94
+                }
+            },
+            "100": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 10,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 27
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 25,
+                    "end_line": 95,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 95
+                }
+            },
+            "102": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 10,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 27
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 91,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 33,
+                            "end_line": 96,
+                            "input_file": {
+                                "filename": "structs.cairo"
+                            },
+                            "start_col": 28,
+                            "start_line": 96
+                        },
+                        "While expanding the reference 'stack' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 91
+                }
+            },
+            "103": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 10,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 27
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 96,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 35,
+                    "start_line": 96
+                }
+            },
+            "105": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 10,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 27
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 96,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 96
+                }
+            },
+            "107": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 11,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 28
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 22,
+                    "end_line": 97,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 97
+                }
+            },
+            "109": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 11,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 17,
+                        "__main__.main.stack": 26,
+                        "__main__.main.value": 28
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 15,
+                    "end_line": 99,
+                    "input_file": {
+                        "filename": "structs.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 99
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.Node": {
+            "full_name": "__main__.Node",
+            "members": {
+                "next": {
+                    "cairo_type": "__main__.Node*",
+                    "offset": 0
+                },
+                "size": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                },
+                "value": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 3,
+            "type": "struct"
+        },
+        "__main__.empty_stack": {
+            "decorators": [],
+            "pc": 1,
+            "type": "function"
+        },
+        "__main__.empty_stack.Args": {
+            "full_name": "__main__.empty_stack.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.empty_stack.ImplicitArgs": {
+            "full_name": "__main__.empty_stack.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.empty_stack.Return": {
+            "cairo_type": "(stack: __main__.Node*)",
+            "type": "type_definition"
+        },
+        "__main__.empty_stack.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 4
+        },
+        "__main__.empty_stack.__fp__": {
+            "cairo_type": "felt*",
+            "full_name": "__main__.empty_stack.__fp__",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "pc": 11,
+                    "value": "[cast(ap + (-2), felt**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "pc": 12,
+                    "value": "[cast(fp + 3, felt**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.empty_stack.new_node": {
+            "cairo_type": "__main__.Node",
+            "full_name": "__main__.empty_stack.new_node",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "pc": 3,
+                    "value": "[cast(fp, __main__.Node*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.get_fp_and_pc": {
+            "destination": "starkware.cairo.common.registers.get_fp_and_pc",
+            "type": "alias"
+        },
+        "__main__.main": {
+            "decorators": [],
+            "pc": 38,
+            "type": "function"
+        },
+        "__main__.main.Args": {
+            "full_name": "__main__.main.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.ImplicitArgs": {
+            "full_name": "__main__.main.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 2
+        },
+        "__main__.main.__temp1": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.__temp1",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 6,
+                        "offset": 42
+                    },
+                    "pc": 57,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.stack": {
+            "cairo_type": "__main__.Node*",
+            "full_name": "__main__.main.stack",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 6,
+                        "offset": 11
+                    },
+                    "pc": 42,
+                    "value": "[cast(ap + (-1), __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 6,
+                        "offset": 21
+                    },
+                    "pc": 46,
+                    "value": "[cast(ap + (-1), __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 6,
+                        "offset": 31
+                    },
+                    "pc": 50,
+                    "value": "[cast(ap + (-1), __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 6,
+                        "offset": 41
+                    },
+                    "pc": 54,
+                    "value": "[cast(ap + (-1), __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 6,
+                        "offset": 41
+                    },
+                    "pc": 55,
+                    "value": "[cast(fp, __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 9,
+                        "offset": 5
+                    },
+                    "pc": 82,
+                    "value": "[cast(ap + (-2), __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 9,
+                        "offset": 10
+                    },
+                    "pc": 87,
+                    "value": "[cast(ap + (-2), __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 9,
+                        "offset": 21
+                    },
+                    "pc": 94,
+                    "value": "[cast(ap + (-1), __main__.Node**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 9,
+                        "offset": 21
+                    },
+                    "pc": 95,
+                    "value": "[cast(fp + 1, __main__.Node**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.value": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.value",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "pc": 63,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 8,
+                        "offset": 0
+                    },
+                    "pc": 70,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 9,
+                        "offset": 0
+                    },
+                    "pc": 77,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 9,
+                        "offset": 5
+                    },
+                    "pc": 82,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 9,
+                        "offset": 10
+                    },
+                    "pc": 87,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 10,
+                        "offset": 0
+                    },
+                    "pc": 100,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 11,
+                        "offset": 0
+                    },
+                    "pc": 107,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.pop": {
+            "decorators": [],
+            "pc": 25,
+            "type": "function"
+        },
+        "__main__.pop.Args": {
+            "full_name": "__main__.pop.Args",
+            "members": {
+                "stack": {
+                    "cairo_type": "__main__.Node*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.pop.ImplicitArgs": {
+            "full_name": "__main__.pop.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.pop.Return": {
+            "cairo_type": "(stack: __main__.Node*, value: felt)",
+            "type": "type_definition"
+        },
+        "__main__.pop.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.pop.stack": {
+            "cairo_type": "__main__.Node*",
+            "full_name": "__main__.pop.stack",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 25,
+                    "value": "[cast(fp + (-3), __main__.Node**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.push": {
+            "decorators": [],
+            "pc": 14,
+            "type": "function"
+        },
+        "__main__.push.Args": {
+            "full_name": "__main__.push.Args",
+            "members": {
+                "stack": {
+                    "cairo_type": "__main__.Node*",
+                    "offset": 0
+                },
+                "value": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "__main__.push.ImplicitArgs": {
+            "full_name": "__main__.push.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.push.Return": {
+            "cairo_type": "(stack: __main__.Node*)",
+            "type": "type_definition"
+        },
+        "__main__.push.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 3
+        },
+        "__main__.push.__fp__": {
+            "cairo_type": "felt*",
+            "full_name": "__main__.push.__fp__",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 6
+                    },
+                    "pc": 23,
+                    "value": "[cast(ap + (-2), felt**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.push.__temp0": {
+            "cairo_type": "felt",
+            "full_name": "__main__.push.__temp0",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 4
+                    },
+                    "pc": 19,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.push.new_node": {
+            "cairo_type": "__main__.Node",
+            "full_name": "__main__.push.new_node",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "pc": 16,
+                    "value": "[cast(fp, __main__.Node*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.push.stack": {
+            "cairo_type": "__main__.Node*",
+            "full_name": "__main__.push.stack",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 14,
+                    "value": "[cast(fp + (-4), __main__.Node**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.push.value": {
+            "cairo_type": "felt",
+            "full_name": "__main__.push.value",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 14,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.stack_at": {
+            "decorators": [],
+            "pc": 28,
+            "type": "function"
+        },
+        "__main__.stack_at.Args": {
+            "full_name": "__main__.stack_at.Args",
+            "members": {
+                "n": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "stack": {
+                    "cairo_type": "__main__.Node*",
+                    "offset": 0
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "__main__.stack_at.ImplicitArgs": {
+            "full_name": "__main__.stack_at.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.stack_at.Return": {
+            "cairo_type": "(value: felt)",
+            "type": "type_definition"
+        },
+        "__main__.stack_at.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.stack_at.n": {
+            "cairo_type": "felt",
+            "full_name": "__main__.stack_at.n",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 28,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.stack_at.stack": {
+            "cairo_type": "__main__.Node*",
+            "full_name": "__main__.stack_at.stack",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 28,
+                    "value": "[cast(fp + (-4), __main__.Node**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.stack_at.value": {
+            "cairo_type": "felt",
+            "full_name": "__main__.stack_at.value",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 37,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.registers.get_ap": {
+            "destination": "starkware.cairo.lang.compiler.lib.registers.get_ap",
+            "type": "alias"
+        },
+        "starkware.cairo.common.registers.get_fp_and_pc": {
+            "destination": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc",
+            "type": "alias"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Args": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.ImplicitArgs": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Return": {
+            "cairo_type": "(fp_val: felt*, pc_val: felt*)",
+            "type": "type_definition"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 4
+                },
+                "pc": 3,
+                "value": "[cast(fp, __main__.Node*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 6
+                },
+                "pc": 11,
+                "value": "[cast(ap + (-2), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 6
+                },
+                "pc": 12,
+                "value": "[cast(fp + 3, felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 14,
+                "value": "[cast(fp + (-4), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 14,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 3
+                },
+                "pc": 16,
+                "value": "[cast(fp, __main__.Node*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 4
+                },
+                "pc": 19,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 6
+                },
+                "pc": 23,
+                "value": "[cast(ap + (-2), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 25,
+                "value": "[cast(fp + (-3), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 28,
+                "value": "[cast(fp + (-4), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 28,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 37,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 6,
+                    "offset": 11
+                },
+                "pc": 42,
+                "value": "[cast(ap + (-1), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 6,
+                    "offset": 21
+                },
+                "pc": 46,
+                "value": "[cast(ap + (-1), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 6,
+                    "offset": 31
+                },
+                "pc": 50,
+                "value": "[cast(ap + (-1), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 6,
+                    "offset": 41
+                },
+                "pc": 54,
+                "value": "[cast(ap + (-1), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 6,
+                    "offset": 41
+                },
+                "pc": 55,
+                "value": "[cast(fp, __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 6,
+                    "offset": 42
+                },
+                "pc": 57,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 0
+                },
+                "pc": 63,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 8,
+                    "offset": 0
+                },
+                "pc": 70,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 9,
+                    "offset": 0
+                },
+                "pc": 77,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 9,
+                    "offset": 5
+                },
+                "pc": 82,
+                "value": "[cast(ap + (-2), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 9,
+                    "offset": 5
+                },
+                "pc": 82,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 9,
+                    "offset": 10
+                },
+                "pc": 87,
+                "value": "[cast(ap + (-2), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 9,
+                    "offset": 10
+                },
+                "pc": 87,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 9,
+                    "offset": 21
+                },
+                "pc": 94,
+                "value": "[cast(ap + (-1), __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 9,
+                    "offset": 21
+                },
+                "pc": 95,
+                "value": "[cast(fp + 1, __main__.Node**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 10,
+                    "offset": 0
+                },
+                "pc": 100,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 11,
+                    "offset": 0
+                },
+                "pc": 107,
+                "value": "[cast(ap + (-1), felt*)]"
+            }
+        ]
+    }
+}
